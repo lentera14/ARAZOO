@@ -115,6 +115,12 @@ label{
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.email{
+	font-size: 15px;
+}
+.com{
+	font-size: 15px;
+}
 .comment{
 	margin-left: 1px;
 }
@@ -200,6 +206,12 @@ label{
 	}
 	label{
 		font-size: 14px;
+	}
+	.email{
+		font-size: 13px;
+	}
+	.com{
+		font-size: 13px;
 	}
 	.submit{
 		font-size: 13px;
