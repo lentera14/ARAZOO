@@ -1,0 +1,207 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+
+.navbar{
+	background: #9FD4AE;
+	padding: 10px;
+}
+.nav-link,
+.navbar-brand{
+	cursor: pointer;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.nav-item{
+	margin: 10px;
+}
+.nav-link:hover{
+	color: #808080;
+}
+
+.carousel-contain{
+	background-color: #f1fff5;
+}
+
+.discount{
+	padding-top: 20px;
+	position: relative;
+}
+.sk{
+	padding: 5px;
+	color: red;
+	font-size: 14px;
+	font-weight: 450;
+	font-family: josefin sans;
+	font-style: italic;
+	text-align: center;
+	text-transform: capitalize;
+}
+.discount img{
+	width: 500px;
+	padding: 5px;
+}
+
+.tittle{
+	padding: 5px;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: josefin sans;
+	text-transform: uppercase;
+}
+
+.about{
+	padding: 20px 12px 20px;
+	position: relative;
+}
+.tittle2{
+	padding: 10px;
+	font-size: 17px;
+	font-weight: 650;
+	font-family: josefin sans;
+	text-align: center;
+	text-transform: uppercase;
+}
+.tittle3{
+	padding: 5px;
+	font-size: 15px;
+	font-weight: 650;
+	font-family: josefin sans;
+	text-align: center;
+	text-transform: uppercase;
+}
+.desc{
+	padding: 5px;
+	font-size: 15px;
+	font-family: josefin sans;
+	text-align: justify;
+}
+.ilmiah{
+	font-style: italic;
+}
+.logo{
+	padding: 5px;
+	width: 250px;
+}
+
+.page-footer{
+	background-color: #9FD4AE;
+	padding: 12px;
+}
+.copyright{
+	font-size: 15px;
+	text-align: center;
+	font-family: josefin sans;
+}
+.us{
+	padding: 5px;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.contact{
+	padding-left: 10px;
+	font-size: 14px;
+}
+.mb-3{
+	padding: 3px;
+}
+label{
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.comment{
+	margin-left: 1px;
+}
+.form-control{
+	background-color: #f1fff5;
+}
+.submit{
+	color: black;
+	background-color: #f1fff5;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+.submit:hover{
+	color: white;
+	background-color: #78a184;
+}
+
+
+@media (max-width: 1024px){
+	.discount img{
+		width: 340px;
+	}
+	
+	.logo{
+		width: 250px;
+		margin-bottom: 5px;
+	}
+	
+	.us{
+		margin-left: 9px;
+		padding-left: 3.5px;
+	}
+	.contact{
+		margin-left: 10px;
+		padding-left: 4px;
+	}
+}
+
+@media (max-width: 768px){
+	.nav-link,
+	.navbar-brand{
+		font-size: 15px;
+		font-weight: 700;
+	}
+
+	.feature-tittle{
+		font-size: 14px;
+	}
+	.sk{
+		font-size: 12px;
+	}
+	.tittle{
+		font-size: 14px;
+	}
+
+	.tittle2{
+		font-size: 14px;
+	}
+	.tittle3{
+		font-size: 13px;
+	}
+	.desc{
+		font-size: 13px;
+	}
+	.logo{
+		width: 200px;
+	}
+
+	.copyright{
+		font-size: 13px;
+	}
+	.us{
+		font-size: 14px;
+	}
+	.contact{
+		font-size: 13px;
+	}
+	.mb-3{
+		margin-left: 10px;
+		padding-left: 3px;
+	}
+	label{
+		font-size: 14px;
+	}
+	.submit{
+		font-size: 13px;
+	}
+}

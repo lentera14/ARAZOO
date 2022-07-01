@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Tiket - ARA ZOO</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ticket.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+		    <a class="navbar-brand" href="#">
+		    	<img src="images/logo.png" alt="" height="60" class="d-inline-block align-text top">
+		    	ARA ZOO
+		    </a>
+		    
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="about.html">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="animals.html">Animals</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="ticket.html">Ticket</a>
+		        </li>
+		      </ul>
+		    </div>
+		</div>
+	</nav>
+	
+	<header>
+		<img src="images/buka.png" class="img-fluid" alt="">
+	</header>
+
+	<div class="container pamflet">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="tittle">Tiket</h3>
+			</div>
+					
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<center><img class="ticket" src="images/tiket1.png"></center>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<center><img class="ticket" src="images/tiket2.png"></center>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<center><img class="ticket" src="images/tiket3.png"></center>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="tittle">Wahana</h3>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<center><img class="wahana" src="images/wahana1.png"></center>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<center><img class="wahana" src="images/wahana2.png"></center>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<center><img class="wahana" src="images/wahana3.png"></center>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<center><img class="wahana" src="images/wahana4.png"></center>
+			</div>
+		</div>
+	</div>
+
+	<div class="container form content">
+		<h2 class="tittle">Form Pemesanan Tiket</h2>
+		<form>
+			<table>
+				<tr>
+					<td class="int">Nama</td>
+					<td><input class="isi" type="text" name="nama" placeholder="Jizel Azeero" required=""></td>
+				</tr>
+				<tr>
+					<td class="int">Nomor Telepon</td>
+					<td><input class="isi" type="text" name="telp" placeholder="08xxxxxxxxx" required=""></td>
+				</tr>
+				<tr>
+					<td class="int">Email</td>
+					<td><input class="isi" type="text" name="email" placeholder="name@arazoo.com" required=""></td>
+				</tr>
+				<tr>
+					<td class="int">Alamat</td>
+					<td><textarea class="text" name="alamat" placeholder="Alamat Rumah" required=""></textarea></td>
+				</tr>
+				<tr>
+					<td class="int">Tiket Masuk</td>
+					<td><select class="opt" name="masuk">
+						<option>Tiket Masuk</option>
+						<option>Tiket Anak</option>
+						<option>Tiket Desawa</option>
+						<option>Paket Outing Class</option>
+						<option>Paket Happy Family</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="int">Tiket Wahana</td>
+					<td><select class="opt" name="wahana">
+						<option>Tiket Wahana</option>
+						<option>Kereta</option>
+						<option>Feeding Animal</option>
+						<option>Photo With Animal</option>
+						<option>Naik (Kuda/Gajah/Unta)</option>
+						<option>Paket 1</option>
+						<option>Paket 2</option>
+						<option>Paket 3</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="int">Jumlah Tiket Masuk</td>
+					<td><input class="isi" type="text" name="jmlmasuk" placeholder="Jumlah Tiket Masuk" required=""></td>
+				</tr>
+				<tr>
+					<td class="int">Jumlah Tiket Wahana</td>
+					<td><input class="isi" type="text" name="jmlwahana" placeholder="Jumlah Tiket Wahana" required=""></td>
+				</tr>
+				<tr>
+					<td><input class="send" type="submit" name="submit" value="Pesan"></td>
+				</tr>
+				<tr>
+					<td><input class="clear" type="submit" name="reset" value="Hapus"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-12 py-3">
+					<img src="images/logo.png" height="120">
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h5 class="us">Contact Us</h5>
+					<p class="contact">
+						<i class="bi bi-instagram"></i> ara.zoo
+						<br/><i class="bi bi-telephone"></i> 084765890210
+						<br><i class="bi bi-envelope"></i> contact@arazoo.com
+						<br/><i class="bi bi-map"></i> Jl. Wonogiri - Sukoharjo, Kec. Sukoharjo, Kabupaten Sukoharjo, Jawa Tengah
+					</p>
+				</div>
+				
+				<form class="row col-lg-4 col-md-4 col-sm-12 comment">
+					<div class="mb-3">
+						<label for="FormControlInput1" class="form-label">Email Address</label>
+						<input type="email" class="form-control" id="FormControlInput1" placeholder="name@arazoo.com" required="">
+					</div>
+					<div class="mb-3">
+						<label for="FormControlTextarea1" class="form-label">Comment</label>
+						<textarea class="form-control" id="FormControlTextarea1" rows="3" required=""></textarea>
+					</div>
+					<div class="mb-3">
+						<button type="submit" class="btn submit">Submit</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="copyright">copyright &copy; 2022 arazoo</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
